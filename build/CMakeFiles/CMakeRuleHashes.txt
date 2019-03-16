@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+00591cbd3b349ce7e0e16f459d3c3767 src/CMakeFiles/MySudoku_autogen
+15ba60eea2c077c34a529b1a27c43255 src/qrc_img.cpp
+e4e1e1ee293afea04fbb10837ce400c6 src/qrc_qml.cpp

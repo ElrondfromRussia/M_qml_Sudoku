@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MySudoku"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\Qt5\;CMake Files\Qt5\Qt5.5.0\;CMake Files\Qt5\Qt5.5.0\5.5\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Qml\;CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Network\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/gavrilenko/MySudoku/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/gavrilenko/MySudoku/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/gavrilenko/MySudoku/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MySudoku">
+				<Option output="E:/gavrilenko/MySudoku/build/bin/MySudoku.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/gavrilenko/MySudoku/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="E:/gavrilenko/MySudoku/build/src"/>
+					<Add directory="E:/gavrilenko/MySudoku/src"/>
+					<Add directory="E:/gavrilenko/MySudoku/build/src/MySudoku_autogen/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtWidgets"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtGui"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtCore"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/mkspecs/win32-g++"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtQml"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtNetwork"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 MySudoku"/>
+					<CompileFile command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MySudoku/fast">
+				<Option output="E:/gavrilenko/MySudoku/build/bin/MySudoku.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/gavrilenko/MySudoku/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="E:/gavrilenko/MySudoku/build/src"/>
+					<Add directory="E:/gavrilenko/MySudoku/src"/>
+					<Add directory="E:/gavrilenko/MySudoku/build/src/MySudoku_autogen/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtWidgets"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtGui"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtCore"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/mkspecs/win32-g++"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtQml"/>
+					<Add directory="C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtNetwork"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/../lib/gcc/i686-w64-mingw32/4.9.2/../../../../i686-w64-mingw32/include"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Qt5/Qt5.5.0/Tools/mingw492_32/lib/gcc/../../i686-w64-mingw32/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 MySudoku/fast"/>
+					<CompileFile command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MySudoku_autogen">
+				<Option working_dir="E:/gavrilenko/MySudoku/build/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 MySudoku_autogen"/>
+					<CompileFile command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt5/Qt5.5.0/Tools/mingw492_32/bin/mingw32-make.exe -f &quot;E:/gavrilenko/MySudoku/build/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/gavrilenko/MySudoku/build/src/MySudoku_autogen/mocs_compilation.cpp">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/build/src/qrc_img.cpp">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/build/src/qrc_qml.cpp">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/img.qrc">
+			<Option target="MySudoku"/>
+			<Option target="MySudoku_autogen"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/main.cpp">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/main.qml">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/myapp.rc">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/qml.qrc">
+			<Option target="MySudoku"/>
+			<Option target="MySudoku_autogen"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/solver.cpp">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/solver.h">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/sudokugamer.cpp">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/sudokugamer.h">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/sudokumatrix.cpp">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/sudokumatrix.h">
+			<Option target="MySudoku"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/img.qrc">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/src/qml.qrc">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Qml/Qt5Qml_QtQuick2Plugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="E:/gavrilenko/MySudoku/Qt5/Qt5.5.0/5.5/mingw492_32/lib/cmake/Qt5Network/Qt5Network_QNativeWifiEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt5\Qt5.5.0\5.5\mingw492_32\lib\cmake\Qt5Network\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

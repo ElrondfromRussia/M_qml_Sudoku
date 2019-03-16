@@ -1,0 +1,33 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "E:/gavrilenko/MySudoku/build/")
+set(AM_CMAKE_SOURCE_DIR "E:/gavrilenko/MySudoku/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "E:/gavrilenko/MySudoku/src/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "E:/gavrilenko/MySudoku/build/src/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "E:/gavrilenko/MySudoku/build/src/MySudoku_autogen")
+set(AM_SOURCES "E:/gavrilenko/MySudoku/src/main.cpp;E:/gavrilenko/MySudoku/src/solver.cpp;E:/gavrilenko/MySudoku/src/sudokugamer.cpp;E:/gavrilenko/MySudoku/src/sudokumatrix.cpp")
+set(AM_HEADERS "E:/gavrilenko/MySudoku/src/solver.h;E:/gavrilenko/MySudoku/src/sudokugamer.h;E:/gavrilenko/MySudoku/src/sudokumatrix.h")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "C:/Qt5/Qt5.5.0/5.5/mingw492_32/bin/moc.exe")
+set(AM_QT_UIC_EXECUTABLE "C:/Qt5/Qt5.5.0/5.5/mingw492_32/bin/uic.exe")
+set(AM_QT_RCC_EXECUTABLE "C:/Qt5/Qt5.5.0/5.5/mingw492_32/bin/rcc.exe")
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NETWORK_LIB;QT_NO_DEBUG;QT_QML_LIB;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "E:/gavrilenko/MySudoku/build/src;E:/gavrilenko/MySudoku/src;E:/gavrilenko/MySudoku/build/src/MySudoku_autogen/include;C:/Qt5/Qt5.5.0/5.5/mingw492_32/include;C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtWidgets;C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtGui;C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtCore;C:/Qt5/Qt5.5.0/5.5/mingw492_32/mkspecs/win32-g++;C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtQml;C:/Qt5/Qt5.5.0/5.5/mingw492_32/include/QtNetwork")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD )
+# UIC settings
+set(AM_UIC_SKIP "")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")
+# RCC settings
+set(AM_RCC_SOURCES "" )
+set(AM_RCC_INPUTS "")
+set(AM_RCC_OPTIONS_FILES "")
+set(AM_RCC_OPTIONS_OPTIONS "")

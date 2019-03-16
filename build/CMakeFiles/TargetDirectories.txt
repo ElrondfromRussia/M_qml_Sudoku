@@ -1,0 +1,6 @@
+E:/gavrilenko/MySudoku/build/CMakeFiles/edit_cache.dir
+E:/gavrilenko/MySudoku/build/CMakeFiles/rebuild_cache.dir
+E:/gavrilenko/MySudoku/build/src/CMakeFiles/MySudoku.dir
+E:/gavrilenko/MySudoku/build/src/CMakeFiles/edit_cache.dir
+E:/gavrilenko/MySudoku/build/src/CMakeFiles/rebuild_cache.dir
+E:/gavrilenko/MySudoku/build/src/CMakeFiles/MySudoku_autogen.dir

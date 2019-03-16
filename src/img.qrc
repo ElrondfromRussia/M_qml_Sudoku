@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fon.png</file>
+        <file>app_sudoku.ico</file>
+    </qresource>
+</RCC>

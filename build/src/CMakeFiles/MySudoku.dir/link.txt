@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\MySudoku.dir/objects.a
+C:\Qt5\Qt5.5.0\Tools\mingw492_32\bin\ar.exe cr CMakeFiles\MySudoku.dir/objects.a @CMakeFiles\MySudoku.dir\objects1.rsp
+C:\Qt5\Qt5.5.0\Tools\mingw492_32\bin\g++.exe  -lgomp -g -Werror=return-type -std=c++11  -mwindows -Wl,--whole-archive CMakeFiles\MySudoku.dir/objects.a -Wl,--no-whole-archive  -o ..\bin\MySudoku.exe -Wl,--out-implib,..\lib\libMySudoku.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MySudoku.dir\linklibs.rsp
