@@ -90,7 +90,7 @@ ApplicationWindow {
     }
     function win()
     {
-        mainrec.color = "transparent"
+        mainrec.color = "green"
         sap_grid.clear()
     }
     function lose()
